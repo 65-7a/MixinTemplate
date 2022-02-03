@@ -22,7 +22,7 @@ apply plugin: 'org.spongepowered.mixin'
 apply plugin: 'java'
 
 version = "1.0"
-group= "com.callumwong" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+group= "com.callumwong"
 archivesBaseName = "MixinTemplate"
 
 sourceCompatibility = targetCompatibility = 1.8
