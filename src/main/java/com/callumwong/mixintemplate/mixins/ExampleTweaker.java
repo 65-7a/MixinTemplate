@@ -15,10 +15,8 @@ public class ExampleTweaker implements ITweaker {
     
     @Override
     public final void acceptOptions(List<String> args, File gameDir, File assetsDir, String profile) {
-        // Add the launch arguments to our launchArgs array
         this.launchArgs.addAll(args);
         
-        // Constants
         final String VERSION = "--version";
         final String ASSET_DIR = "--assetDir";
         final String GAME_DIR = "--gameDir";
